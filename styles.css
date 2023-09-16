@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #94d9ea;
+}
+
+.Contenido-Principal {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.seccion-Izquierda {
+  grid-column: span 2.5;
+  height: 100%;
+  background-color: #00324a;
+}
+
+.seccion-Derecha {
+  grid-column: span 5;
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+.contenido-derecho {
+  padding: 1rem 3rem;
+}
+
+.perfil {
+  width: 100%;
+  border-bottom: 1px solid #94d9ea;
+}
+
+.perfil img {
+  width: 100%;
+  border-radius: 50%;
+  border: 8px solid #002333;
+}
+
+.nombre {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem 0;
+}
+
+.carrera {
+  font-size: 1.2rem;
+  color: #94d9ea;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.tipri {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+  padding-top: 3rem;
+}
+
+.contacto-info {
+  padding-top: 2rem 0;
+}
+
+.contacto-info ul {
+  padding-top: 2rem 0;
+}
+
+.contacto-info ul li {
+  padding: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  color: #718096;
+}
+
+.contacto-info ul li i {
+  padding-right: 1rem;
+  font-size: 1.1rem;
+  color: #22aed1;
+}
+
+.skills ul li {
+  font-size: 1.8rem;
+  text-transform: none;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+  padding-top: 3rem;
+}
+
+.progress {
+  width: 100%;
+  height: .4rem;
+  background-color: #2a78ff;
+  position: relative;
+}
+.skill1 {
+  height: 100%;s
+}
+
+.js-progress
+{
+    width:70%;
+    
+
+    
+
+}
