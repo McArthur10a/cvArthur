@@ -42,7 +42,7 @@ body {
 .perfil img {
   width: 100%;
   border-radius: 50%;
-  border: 8px solid #002333;
+  border: 1px solid #002333;
 }
 
 .nombre {
@@ -62,12 +62,12 @@ body {
   padding-bottom: 1rem;
 }
 
-.tipri {
-  font-size: 1.8rem;
+.info-cont {
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .contacto-info {
@@ -87,33 +87,137 @@ body {
 
 .contacto-info ul li i {
   padding-right: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #22aed1;
 }
 
+.skill ul {
+  padding-top: 2rem;
+}
+
 .skills ul li {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.4rem 0;
+}
+
+.titupri {
   font-size: 1.8rem;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7;
   padding-top: 3rem;
 }
+.skill1 {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
 
-.progress {
+.skill2 {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1.1rem;
+}
+
+.skill3 {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1.1rem;
+}
+
+.progress-bar {
   width: 100%;
-  height: .4rem;
-  background-color: #2a78ff;
+  height: 0.5rem;
+  background-color: #2d3748;
   position: relative;
 }
-.skill1 {
-  height: 100%;s
+
+.progress {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #2d9cdb;
 }
 
-.js-progress
-{
-    width:70%;
-    
+.js-progress {
+  width: 60%;
+}
 
-    
+.html-progress {
+  width: 90%;
+}
 
+.css-progress {
+  width: 75%;
+}
+
+.skills {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1rem;
+}
+
+.refer {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+  padding-top: 2rem;
+}
+
+.refer ul {
+  padding-top: 2rem;
+}
+
+.refer li {
+  color: #ccc;
+  padding: 0.2rem 0;
+}
+
+.refer li i {
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d9cdb;
+}
+
+.sub-titulo {
+  color: #ccc;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.oficio {
+  color: #ccc;
+  padding: 0.4rem 0;
+}
+
+.oficio li {
+  color: #ccc;
+  padding: 0.2rem 0;
+}
+
+.oficio li i {
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d9cdb;
+}
+
+.oficio li i p {
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d9cdb;
+}
+
+.referencia li {
+  color: #ccc;
+  padding: 0.2rem 0;
+}
+
+.referencia li i {
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #2d9cdb;
 }
