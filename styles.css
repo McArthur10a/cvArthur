@@ -101,7 +101,7 @@ body {
   padding: 0.4rem 0;
 }
 
-.titupri {
+.habil {
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -153,71 +153,62 @@ body {
   width: 75%;
 }
 
-.skills {
-  text-transform: uppercase;
-  color: #f7f7f7;
-  font-size: 1rem;
-}
-
 .refer {
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7;
-  padding-top: 2rem;
+  padding-top: 2rem 0;
 }
 
-.refer ul {
-  padding-top: 2rem;
+.habil {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1rem;
+}
+
+.refer lu {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: #22aed1;
 }
 
 .refer li {
   color: #ccc;
-  padding: 0.2rem 0;
+  padding-top: 0.2rem;
 }
 
 .refer li i {
-  padding-right: 0.5rem;
-  font-size: 1.2rem;
-  color: #2d9cdb;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: #22aed1;
 }
 
 .sub-titulo {
-  color: #ccc;
   padding-top: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
+  color: #f7f7f7;
 }
 
-.oficio {
+.puesto {
   color: #ccc;
-  padding: 0.4rem 0;
-}
-
-.oficio li {
-  color: #ccc;
-  padding: 0.2rem 0;
-}
-
-.oficio li i {
-  padding-right: 0.5rem;
-  font-size: 1.2rem;
-  color: #2d9cdb;
-}
-
-.oficio li i p {
-  padding-right: 0.5rem;
-  font-size: 1.2rem;
-  color: #2d9cdb;
+  padding-top: 0.4rem;
 }
 
 .referencia li {
-  color: #ccc;
-  padding: 0.2rem 0;
-}
-
-.referencia li i {
-  padding-right: 0.5rem;
+  padding-right: 2rem;
   font-size: 1.2rem;
   color: #2d9cdb;
+}
+
+.cont-pderecho {
+  padding: 2rem 3rem;
+}
+
+.title-derecho {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2f80ed;
+  padding-bottom: 1.2rem;
 }
