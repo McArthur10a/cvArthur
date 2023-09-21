@@ -26,12 +26,14 @@ body {
 
 .seccion-Derecha {
   grid-column: span 5;
-  background-color: #f7f7f7;
+  background-color: blue;
   height: 100%;
 }
 
 .contenido-derecho {
-  padding: 1rem 3rem;
+  grid-column: span 2;
+  background-color: #002333;
+  height: 100%;
 }
 
 .perfil {
